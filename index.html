@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Звездные войны | персонажи </title>
+</head>
+<body>
+    <header class="header">Добро пожаловать в мир STAR WARS</header>
+    <div class="main">
+        <div class="nameOfCharacter"> 
+            <h2>Выберете героя:</h2>
+            <ul class="nameOfCharacter_list"></ul>
+    
+            <input type="button" class="prevPage" value="prev">
+            <input type="button" class="nextPage" value="next">
+        </div>
+        <div class="description">
+            <div class="name"></div>
+            <div class="birth_year"></div>
+            <div class="gender"></div>
+            <div class="films"> films:
+                <ul class="films_list"></ul>
+            </div>
+            <div class="homeworld"></div>
+            <div class="species"></div>
+    
+            <input type="button" class="deleteBtn" value="CLOSE" onclick="deleteBtn()">
+        </div>    
+    </div>
+
+    <script src="module.js"></script>
+</body>
+</html>
